@@ -54,6 +54,14 @@ const triangle = function (a,b,c) {
 console.log(triangle(25,25,50));
 console.log(triangle(23,25,25));
 
+
+/**
+ * Triangle area function
+ * @param {base} a - triangle base
+ * @param {height} b - triangle height
+ * @returns triangle area 0.5 * base * height
+ */
+
 const areaOfTriangle = function (base, height) {
   return 0.5 * base * height;
 }
