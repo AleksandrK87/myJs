@@ -1,0 +1,218 @@
+/*const a = 2;
+const b = 3;
+
+console.log(a * b);
+
+const c = 10;
+const = 5;
+
+console.log(c / d);
+
+const e = 10;
+const f = 5;
+
+console.log(c+d);
+
+const a = 11;
+const b = true;
+const c = 'java script';
+const d = '100';
+
+console.log(a,b,c,d)
+
+let num = 1;
+num += 11;
+num -= 11;
+num *= 11;
+num /= 11;
++num;
++num;*/
+
+/* Таски на promt */
+
+/*const inputValue = Number(prompt('Type number'));
+const result = inputValue * inputValue;
+
+if (isNaN(result)) {
+    alert('Wrong');
+} else {
+    alert(result);;
+}
+alert(result);*/
+
+
+
+/*const inputValue1 = Number(prompt('Type first number'));
+const inputValue2 = Number(prompt('Type second number'));
+const result = (inputValue1 + inputValue2)/2;
+
+if (isNaN(result)) {
+    alert('Wrong');
+} else {
+    alert(result);;
+}
+alert(result);
+
+const inputValue1 = Number(prompt('Type the number of minutes'));
+const result = inputValue1 * 60;
+alert(result);
+
+let greeting = 'Hello,';
+const inputUserName = String(prompt('Type your username'));
+const result = greeting + inputUserName;
+alert(result);*/
+
+/* Таски на условия */
+
+
+
+
+
+//const number1 = Number(prompt('Введите число')); 
+
+// (number1 === 10) ? alert('Верно') : alert('Неверно'); 
+
+
+// const test = true;
+// (!test) ? console.log('Верно') : console.log('Неверно'); 
+// (test) ? console.log('Верно') : console.log('Неверно'); 
+
+//const sumBuy = Number(prompt( 'Введите сумму '));
+
+/*const sumBuy = Number (prompt('Введите суму '));
+ if(sumBuy < 500) {
+    console.log (sumBuy) 
+ } else if(sumBuy >= 500 || sumBuy <=800) {
+    console.log(sumBuy - (sumBuy * 3 / 100), 'скидка 3%')
+  } else {
+    console.log(sumBuy - (sumBuy * 5 / 100), 'скидка 5%')
+  }*/
+
+
+
+  
+  // таски на циклы
+
+  //let stepsCount = 25;
+  // const lastStep = 0;
+  
+  // while(stepsCount >= lastStep) {
+  //   console.log(stepsCount);
+  //   stepsCount--;
+  // }
+  
+  // for(let i = stepsCount; i >= 0; --i){
+  //   console.log(i);
+  // }
+  
+  
+  
+  
+  // const maxNumber = 50;
+  // let count = 10;
+  
+  // while(count <= maxNumber) {
+  //   if(count % 5 === 0){
+  //     console.log(count);
+  //   }
+  //   count++;
+  // }
+  
+  // for(let i=10; i <= maxNumber; i++){
+  //   if(i % 5 === 0){
+  //     console.log(i);
+  //   }
+  // }
+  
+  
+  
+  // const maxValue = 100;
+  // let count = 1;
+  // let sum = 0;
+  
+  // while(count <= maxValue){
+  //   sum += count;
+  //   count++;
+  // }
+  // console.log(sum);
+  
+  // for(let i = 0; i <= maxValue; i++){
+  //   sum += i;
+  // }
+  // console.log(sum);
+  
+  
+  
+  //Таски на switch
+
+
+  // const numberDay = +prompt('Введите число от 1 до 7');
+  // switch(numberDay) {
+  //   case 1:
+  //     alert('Понедельник');
+  //     break;
+  //   case 2:
+  //     alert('Вторник');
+  //     break;
+  //   case 3:
+  //     alert('Среда');
+  //     break;
+  //   case 4:
+  //     alert('Четверг');
+  //     break;
+  //   case 5:
+  //     alert('Пятница');
+  //     break;
+  //   case 6:
+  //     alert('Суббота');
+  //     break;
+  //   case 7:
+  //     alert('Воскресенье');
+  //     break;
+  //   default: 
+  //     alert('Неверно введено значение')
+  // }
+  
+  const day = +prompt('Введите число от 1 до 31');
+  switch(day){
+    case 1:
+    case 2:
+    case 3:
+    case 4:
+    case 5:
+    case 6:
+    case 7:
+    case 8:
+    case 9:
+    case 10:
+      alert('Первая декада');
+      break;
+    case 11:
+    case 12:
+    case 13:
+    case 14:
+    case 15:
+    case 16:
+    case 17:
+    case 18:
+    case 19:
+    case 20:
+      alert('Вторая декада');
+      break;
+    case 21:
+    case 22:
+    case 23:
+    case 24:
+    case 25:
+    case 26:
+    case 27:
+    case 28:
+    case 29:
+    case 30:
+    case 31:  
+      alert('Третья декада');
+      break;
+    default:
+      alert('Неверно введено значение');        
+  } 
+  
