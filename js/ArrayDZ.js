@@ -1,4 +1,4 @@
-'Use strict'
+'use strict';
 
 const arr1 = [1,2,5,6,0,10,-2];
 
